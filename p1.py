@@ -12,7 +12,7 @@ def unique():
             pass
         else:
             print('número {} fora da faixa permitida: 1 <= n <=1000'.format(n))
-
+        fin.close()
 
 if __name__ == "__main__":
     unique()
